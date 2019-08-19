@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.LoginPage">
+      <StackLayout Spacing="35" VerticalOptions="Center">
+        <Label FontSize="35" TextColor="#00649B" HorizontalOptions="Center" Text="LOG IN"></Label>
+        <Entry Margin="20,0,20,0" x:Name = "username" Placeholder="Username" BackgroundColor="#ffffff" HeightRequest="45"></Entry>
+        <Entry Margin="20,0,20,0" x:Name = "password" Placeholder="Password" BackgroundColor="#ffffff" HeightRequest="45"></Entry>
+        <Label Margin="200,0,0,0" Text="Forgot Password ?"/>
+        <Grid Margin="20,0,20,0">
+            <Button  TextColor="White" BackgroundColor="#00649B" Grid.Row="0" Grid.Column="0" Clicked="navigateToMainPage" Text="Login" ></Button>
+            <Button TextColor="White" BackgroundColor="#00649B" Grid.Row="0" Grid.Column="1" Clicked="navigateToSignup" Text="Sign Up"></Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>
+    

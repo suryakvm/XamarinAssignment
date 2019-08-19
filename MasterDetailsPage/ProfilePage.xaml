@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.ProfilePage"
+             Title="Profile">
+   
+  <StackLayout Padding="40" Spacing="20">
+        <Image  Source="http://placehold.it/350x350"/>
+        <Grid RowSpacing="30" Padding="0,0,0,30">
+        <Label Grid.Row="0" Grid.Column="0" Text="First Name: "></Label>
+        <Label Grid.Row="0" Grid.Column="1" Text=" Surya Teja"></Label>
+        <Label Grid.Row="1" Grid.Column="0" Text="Last Name: "></Label>
+        <Label Grid.Row="1" Grid.Column="1" Text=" Tammana"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Text="Email: "></Label>
+        <Label Grid.Row="2" Grid.Column="1" Text=" sa@gmail.com"/>
+        <Label Grid.Row="3" Grid.Column="0" Text="Phone No: "/>
+        <Label Grid.Row="3" Grid.Column="1" Text="123456789"/>
+        </Grid>
+        
+        
+        
+  </StackLayout>
+        
+   
+</ContentPage>

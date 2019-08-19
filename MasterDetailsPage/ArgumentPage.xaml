@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.ArgumentPage">
+  
+    <StackLayout Spacing="15">
+        <!-- <AbsoluteLayout>
+                    <BoxView BackgroundColor="#00649B" AbsoluteLayout.LayoutBounds="0,0,1,80" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></BoxView>
+                    <Label Text="Add Argument" TextColor="White" AbsoluteLayout.LayoutBounds="0.1,0.5,200,20" AbsoluteLayout.LayoutFlags="PositionProportional"></Label>
+            </AbsoluteLayout>-->
+        <Label Margin="20,40,0,0" Text="Argument"></Label>
+        <Entry Margin="20,0,20,0" x:Name="argumentName" Placeholder="Name" HeightRequest="45"></Entry>
+        <Picker Title="Type" x:Name="picker" HorizontalOptions="FillAndExpand">
+                     <Picker.Items>
+                         <x:String>Pro</x:String> 
+                         <x:String>Con</x:String>
+                     </Picker.Items>
+             </Picker> 
+        <!--<Grid Margin="20,0,0,0">
+            <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Text="Pro"></Label>
+             
+            <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Text="Con" ></Label>
+        </Grid>-->
+        <Slider Margin="20,0,20,0"  x:Name="slider" Maximum="10" Minimum="1" ></Slider>
+        <Label HorizontalOptions="CenterAndExpand" Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='Importance {0:F0}'}" />
+        <Button Margin="30" Clicked="saveCase" Text="Save" TextColor="White" BackgroundColor="#00649B" VerticalOptions="EndAndExpand" Padding="10,0,10,0" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+</ContentPage>

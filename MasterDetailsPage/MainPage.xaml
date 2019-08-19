@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MasterDetailsPage" x:Class="MasterDetailsPage.MainPage">
+   <MasterDetailPage.Master>
+        <ContentPage BackgroundColor="#00649B" Title="☰"  >
+            <StackLayout>
+                <AbsoluteLayout>
+                    <BoxView BackgroundColor="#9FC4D9" AbsoluteLayout.LayoutBounds="0,0,1,100" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"></BoxView>
+                    <Label Text="Decider" TextColor="White" AbsoluteLayout.LayoutBounds="0.2,0.6,80,20" AbsoluteLayout.LayoutFlags="PositionProportional"></Label>
+                   </AbsoluteLayout>
+                    <Button  Text="Profile" Clicked="navigateToProfile" TextColor="White" />
+                    <Button  Text="Home" Clicked="navigateToHome"  TextColor="White" />
+                    <Button  Text="Settings" Clicked="navigateToSettings" TextColor="White" />
+                    <Button  Text="Log out" Clicked="navigateToLogout" TextColor="White" />
+                </StackLayout>
+            
+        </ContentPage>
+        </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+        </MasterDetailPage.Detail>
+</MasterDetailPage>

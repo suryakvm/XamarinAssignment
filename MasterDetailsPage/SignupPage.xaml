@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.SignupPage">
+    
+    
+    <StackLayout Spacing="35" VerticalOptions="Center">
+        <Label FontSize="35" TextColor="#00649B" HorizontalOptions="Center" Text="SIGN UP"></Label>
+        <Entry x:Name="name" Margin="20,0,20,0" Placeholder="Name"></Entry>
+        <Entry x:Name="username" Margin="20,0,20,0" Placeholder="Username"></Entry>
+        <Entry x:Name="email" Margin="20,0,20,0" Placeholder="Email"></Entry>
+        <Entry x:Name="password" Margin="20,0,20,0" Placeholder="Password"></Entry>
+        <Entry x:Name="cPassword" Margin="20,0,20,0" Placeholder="Confirm Password"></Entry>
+        <Button Clicked="signUp" TextColor="White" BackgroundColor="#00649B" Padding="10,0,10,0" HorizontalOptions="Center" Text="Register"></Button>
+    </StackLayout>
+</ContentPage>
+    

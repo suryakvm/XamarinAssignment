@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.HomePage" Title="DECISIONS">
+    <ContentPage.Content>
+        <StackLayout>
+         <ListView x:Name="decisionList" ItemTapped="decisionListItemClick" SeparatorVisibility="Default" HasUnevenRows="true" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin = "15,5,0,5" Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+                             <Label Text="{Binding name}" FontSize="18"/>
+                              <StackLayout Orientation="Horizontal" Padding="0,0,0,0" Margin="0,0,0,0">
+                                   <Label FontSize="13" TextColor="Gray" Text="{Binding positive, StringFormat='Positive: {0}%'}" />
+                                   <Label FontSize="13" TextColor="Gray" Text="{Binding negative, StringFormat='Negative: {0}%'}" />
+                             </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+         <Button Margin="0,0,20,20" Clicked="navigateToAddDecisionPage" FontSize="30" BackgroundColor="#00649b" TextColor="White" Text="+"  x:Name="RevealCode"  HorizontalOptions="End" VerticalOptions="EndAndExpand" WidthRequest="60" HeightRequest="60" BorderRadius="30" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

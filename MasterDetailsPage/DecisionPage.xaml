@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetailsPage.DecisionPage" Title="DECISION">
+      
+       
+    
+    <StackLayout  Spacing="20">
+        
+        <Label Margin="20,40,0,0" Text="Buying a Bike ?"></Label>
+        <Grid Margin="20,0,20,0" RowSpacing="0" ColumnSpacing="0">
+            <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="#03c086"/>    
+            <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="#FC5130"/>    
+        </Grid>
+        <Grid>
+            <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Text="50%" x:Name="positivePercentage" />
+            <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" Text="50%" x:Name="negativePercentage"/>
+        </Grid>
+        <Grid>
+            <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" Text="Positive"/>
+            <Label Grid.Row="0" Grid.Column="1"  HorizontalOptions="Center" Text="Negative"/>
+        </Grid>
+        <Grid>
+            <Button FontSize="Large" Grid.Row="0" Grid.Column="0" Clicked="AllPros" HorizontalOptions="Center" Margin="30" Text="All Pros >"></Button>
+            <Button FontSize="Large" Grid.Row="0" Grid.Column="1" Clicked="AllCons" HorizontalOptions="Center" Margin="30" Text="All Cons >"></Button>
+        </Grid>
+        
+        
+        <!--
+            <ListView Grid.Row="0" Grid.Column="0"x:Name="casesList" Margin="30">
+             <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding name}" Detail="{Binding importance}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        -->
+        <!--<ListView x:Name="casesList" Margin="30">
+             <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding name}" Detail="{Binding importance}"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+        </ListView>-->
+        <Button  Margin="30" VerticalOptions="EndAndExpand" Padding="15,0,15,0" Text="Add Argument" Clicked="AddArgumentPage" BackgroundColor="#00649B" TextColor="White" HorizontalOptions="Center"/>
+        </StackLayout>
+            
+</ContentPage>

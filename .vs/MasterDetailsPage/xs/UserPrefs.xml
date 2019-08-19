@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{67C73F28-3EB0-417D-BA86-6708CD08EAB6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetailsPage/HomePage.xaml.cs">
+    <Files>
+      <File FileName="MasterDetailsPage/Models/Decision.cs" Line="24" Column="10" />
+      <File FileName="MasterDetailsPage/Models/User.cs" Line="1" Column="1" />
+      <File FileName="MasterDetailsPage/Services/FirebaseService.cs" Line="29" Column="16" />
+      <File FileName="MasterDetailsPage/SignupPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MasterDetailsPage/LoginPage.xaml.cs" Line="52" Column="1" />
+      <File FileName="MasterDetailsPage/LoginPage.xaml" />
+      <File FileName="MasterDetailsPage/MainPage.xaml" />
+      <File FileName="MasterDetailsPage/AddDecisionPage.xaml.cs" Line="29" Column="46" />
+      <File FileName="MasterDetailsPage.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="MasterDetailsPage/HomePage.xaml" />
+      <File FileName="MasterDetailsPage/DecisionPage.xaml" />
+      <File FileName="MasterDetailsPage/DecisionPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MasterDetailsPage/HomePage.xaml.cs" Line="32" Column="10" />
+      <File FileName="MasterDetailsPage/AllPros.xaml" />
+      <File FileName="MasterDetailsPage/AllCons.xaml" />
+      <File FileName="MasterDetailsPage/AddDecisionPage.xaml" />
+      <File FileName="MasterDetailsPage/App.xaml.cs" Line="13" Column="62" />
+      <File FileName="MasterDetailsPage/MainPage.xaml.cs" Line="18" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MasterDetailsPage" expanded="True">
+            <Node name="MasterDetailsPage" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="HomePage.xaml" expanded="True">
+                <Node name="HomePage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MasterDetailsPage.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.MasterDetailsPage.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4FE80A82-3AF5-4215-BA01-46644A3FBA71" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
